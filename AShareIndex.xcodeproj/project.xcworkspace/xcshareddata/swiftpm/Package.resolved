@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire?tab=readme-ov-file",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire?tab=readme-ov-file",
+      "state" : {
+        "revision" : "3dc6a42c7727c49bf26508e29b0a0b35f9c7e1ad",
+        "version" : "5.8.1"
+      }
+    },
+    {
+      "identity" : "launchatlogin",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sindresorhus/LaunchAtLogin",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d811817ce35d74872a1170c851cab243a2b8b559"
+      }
+    },
+    {
+      "identity" : "swiftpath",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/g-mark/SwiftPath",
+      "state" : {
+        "revision" : "17788c05603bd0e405c6571227d470aae09d7562",
+        "version" : "0.4.0"
+      }
+    }
+  ],
+  "version" : 2
+}
