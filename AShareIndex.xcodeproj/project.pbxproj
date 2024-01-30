@@ -10,7 +10,6 @@
 		B52C297C2B67823900A1BF3C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52C297B2B67823900A1BF3C /* Config.swift */; };
 		B52C297F2B67892700A1BF3C /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = B52C297E2B67892700A1BF3C /* LaunchAtLogin */; };
 		B52C29832B678C9300A1BF3C /* AShareIndexApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52C29822B678C9300A1BF3C /* AShareIndexApi.swift */; };
-		B52C29862B68B3F500A1BF3C /* stockchart in Resources */ = {isa = PBXBuildFile; fileRef = B52C29852B68B3F500A1BF3C /* stockchart */; };
 		B52C29892B68BA5D00A1BF3C /* SwiftPath in Frameworks */ = {isa = PBXBuildFile; productRef = B52C29882B68BA5D00A1BF3C /* SwiftPath */; };
 		B5968AE12B661FDE005589DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5968AE02B661FDE005589DD /* AppDelegate.swift */; };
 		B5968AE32B661FDE005589DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5968AE22B661FDE005589DD /* ViewController.swift */; };
@@ -43,7 +42,6 @@
 		B52C297B2B67823900A1BF3C /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		B52C29822B678C9300A1BF3C /* AShareIndexApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AShareIndexApi.swift; sourceTree = "<group>"; };
 		B52C29842B68B35400A1BF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		B52C29852B68B3F500A1BF3C /* stockchart */ = {isa = PBXFileReference; lastKnownFileType = folder; name = stockchart; path = ../../../Downloads/stockchart; sourceTree = "<group>"; };
 		B5968ADD2B661FDE005589DD /* AShareIndex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AShareIndex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5968AE02B661FDE005589DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5968AE22B661FDE005589DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,7 +86,6 @@
 		B5968AD42B661FDE005589DD = {
 			isa = PBXGroup;
 			children = (
-				B52C29852B68B3F500A1BF3C /* stockchart */,
 				B5968ADF2B661FDE005589DD /* AShareIndex */,
 				B5968AF12B661FDF005589DD /* AShareIndexTests */,
 				B5968AFB2B661FDF005589DD /* AShareIndexUITests */,
@@ -254,7 +251,6 @@
 			files = (
 				B5968AE52B661FDF005589DD /* Assets.xcassets in Resources */,
 				B5968AE82B661FDF005589DD /* Main.storyboard in Resources */,
-				B52C29862B68B3F500A1BF3C /* stockchart in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
