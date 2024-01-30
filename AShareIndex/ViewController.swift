@@ -49,7 +49,7 @@ class ViewController: NSViewController {
     }
     
     @IBAction func openSourceUrl(_ sender: NSButton) {
-        let url = URL(string: "https://www.google.com")!
+        let url = URL(string: "https://github.com/kylelin1998/AShareIndex")!
         NSWorkspace.shared.open(url)
     }
     @IBAction func customCodeCheck(_ sender: NSSwitch) {
