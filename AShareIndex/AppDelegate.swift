@@ -138,16 +138,18 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                         let mapped = try? path.evaluate(with: value) as? String
                         print(mapped)
                         if let mapped = mapped {
-                            print(mapped)
-                            let alert = NSAlert()
-                            alert.addButton(withTitle: "OK")
-                            alert.icon = NSImage(named: "index")
-                            if (mapped != version) {
-                                alert.messageText = "软件有最新版本， 可以前往App Store进行更新"
-                            } else {
-                                alert.messageText = "软件已是最新版本"
+                            DispatchQueue.main.async {
+                                print(mapped)
+                                let alert = NSAlert()
+                                alert.addButton(withTitle: "OK")
+                                alert.icon = NSImage(named: "index")
+                                if (mapped != version) {
+                                    alert.messageText = "软件有最新版本， 可以前往App Store进行更新"
+                                } else {
+                                    alert.messageText = "软件已是最新版本"
+                                }
+                                alert.runModal()
                             }
-                            alert.runModal()
                         }
                     }
                 case .failure(let error):
