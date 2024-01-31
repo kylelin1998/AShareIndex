@@ -2,6 +2,10 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 [![release](https://img.shields.io/github/v/release/kylelin1998/AShareIndex)](https://github.com/kylelin1998/AShareIndex/releases/latest)
 
+## 下载地址
+[App Store(商店)](https://apps.apple.com/cn/app/a%E8%82%A1%E5%AE%9E%E6%97%B6%E6%8C%87%E6%95%B0%E8%8F%9C%E5%8D%95%E6%A0%8F%E6%98%BE%E7%A4%BA/id6476905902?mt=12)
+[直接下载](https://github.com/kylelin1998/AShareIndex/releases)
+
 ## 简介
 在MacOS系统菜单栏直接显示A股指数， 支持自定义股票代码显示
 
