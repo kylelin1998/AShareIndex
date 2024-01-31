@@ -7,6 +7,7 @@
 
 轻量级显示不占系统资源， 运行内存占用平均20MB左右
 
-![image](https://github.com/kylelin1998/AShareIndex/assets/38401813/c132ce6b-18dd-4fc6-a8ed-c5ff952343d4)
+<img width="304" alt="image" src="https://github.com/kylelin1998/AShareIndex/assets/38401813/39df52a9-5c66-489a-be1d-802cd41e605b">
 
-![image](https://github.com/kylelin1998/AShareIndex/assets/38401813/c67c3868-2eed-4eee-acb1-efa769cba0d8)
+<img width="454" alt="image" src="https://github.com/kylelin1998/AShareIndex/assets/38401813/9b4221a4-1d93-4b10-a65f-28a578df0bac">
+
