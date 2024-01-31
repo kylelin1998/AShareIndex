@@ -42,6 +42,9 @@
 		B52C297B2B67823900A1BF3C /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		B52C29822B678C9300A1BF3C /* AShareIndexApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AShareIndexApi.swift; sourceTree = "<group>"; };
 		B52C29842B68B35400A1BF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B55870F72B69E87C0029BEC5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		B55870F82B69E8830029BEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B55870F92B69E8830029BEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B5968ADD2B661FDE005589DD /* AShareIndex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AShareIndex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5968AE02B661FDE005589DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5968AE22B661FDE005589DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +124,7 @@
 		B5968AF12B661FDF005589DD /* AShareIndexTests */ = {
 			isa = PBXGroup;
 			children = (
+				B55870F82B69E8830029BEC5 /* Info.plist */,
 				B5968AF22B661FDF005589DD /* AShareIndexTests.swift */,
 			);
 			path = AShareIndexTests;
@@ -129,6 +133,7 @@
 		B5968AFB2B661FDF005589DD /* AShareIndexUITests */ = {
 			isa = PBXGroup;
 			children = (
+				B55870F92B69E8830029BEC5 /* Info.plist */,
 				B5968AFC2B661FDF005589DD /* AShareIndexUITests.swift */,
 				B5968AFE2B661FDF005589DD /* AShareIndexUITestsLaunchTests.swift */,
 			);
@@ -221,11 +226,12 @@
 			};
 			buildConfigurationList = B5968AD82B661FDE005589DD /* Build configuration list for PBXProject "AShareIndex" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = "zh-Hans";
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = B5968AD42B661FDE005589DD;
 			packageReferences = (
@@ -319,6 +325,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				B5968AE72B661FDF005589DD /* Base */,
+				B55870F72B69E87C0029BEC5 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -331,6 +338,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -396,6 +404,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -457,12 +466,12 @@
 				CODE_SIGN_ENTITLEMENTS = AShareIndex/AShareIndex.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = QX3RZR5KM6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AShareIndex/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "A股指数菜单栏";
+				INFOPLIST_KEY_CFBundleDisplayName = "A股指数菜单栏显示";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -473,7 +482,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kylelin1998.AShareIndex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -490,12 +499,12 @@
 				CODE_SIGN_ENTITLEMENTS = AShareIndex/AShareIndex.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = QX3RZR5KM6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AShareIndex/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "A股指数菜单栏";
+				INFOPLIST_KEY_CFBundleDisplayName = "A股指数菜单栏显示";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -506,7 +515,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kylelin1998.AShareIndex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -523,6 +532,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QX3RZR5KM6;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AShareIndexTests/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kylelin1998.AShareIndexTests;
@@ -542,6 +553,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QX3RZR5KM6;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AShareIndexTests/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kylelin1998.AShareIndexTests;
@@ -560,6 +573,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QX3RZR5KM6;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AShareIndexUITests/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kylelin1998.AShareIndexUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -577,6 +592,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QX3RZR5KM6;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AShareIndexUITests/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kylelin1998.AShareIndexUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

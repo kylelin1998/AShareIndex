@@ -13,6 +13,8 @@ class ViewController: NSViewController {
     @IBOutlet weak var bootComboBox: NSComboBox!
     @IBOutlet weak var customCodeText: NSTextField!
     @IBOutlet weak var customCodeCheck: NSSwitch!
+    @IBOutlet weak var downText: NSTextField!
+    @IBOutlet weak var upText: NSTextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,10 +38,14 @@ class ViewController: NSViewController {
         if let value = Config.getCustomCodeText() {
             customCodeText?.stringValue = value
         }
+        upText?.stringValue = Config.getUpText()
+        downText?.stringValue = Config.getDownText()
         
         NotificationCenter.default.addObserver(self, selector: #selector(handleIndexComboBoxSelectionDidChange(_:)), name: NSComboBox.selectionDidChangeNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(handleBootComboBoxSelectionDidChange(_:)), name: NSComboBox.selectionDidChangeNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(handleCustomCodeTextDidChange(_:)), name: NSComboBox.textDidChangeNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(handleUpTextDidChange(_:)), name: NSComboBox.textDidChangeNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(handleDownTextDidChange(_:)), name: NSComboBox.textDidChangeNotification, object: nil)
     }
     
     override var representedObject: Any? {
@@ -48,10 +54,6 @@ class ViewController: NSViewController {
         }
     }
     
-    @IBAction func openSourceUrl(_ sender: NSButton) {
-        let url = URL(string: "https://github.com/kylelin1998/AShareIndex")!
-        NSWorkspace.shared.open(url)
-    }
     @IBAction func customCodeCheck(_ sender: NSSwitch) {
         switch customCodeCheck?.state ?? NSControl.StateValue.off {
         case .on:
@@ -73,6 +75,12 @@ class ViewController: NSViewController {
     }
     @objc func handleCustomCodeTextDidChange(_ notification: Notification) {
         Config.setCustomCodeText(value: customCodeText.stringValue)
+    }
+    @objc func handleUpTextDidChange(_ notification: Notification) {
+        Config.setUpText(value: upText.stringValue)
+    }
+    @objc func handleDownTextDidChange(_ notification: Notification) {
+        Config.setDownText(value: downText.stringValue)
     }
         
 }

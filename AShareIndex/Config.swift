@@ -40,4 +40,33 @@ struct Config {
     static func setCustomCodeText(value: String) {
         UserDefaults.standard.set(value, forKey: "_CustomCodeText")
     }
+    
+    static func getUpText() -> String {
+        let defaltValue = "📈"
+        if let value = UserDefaults.standard.string(forKey: "_UpText") {
+            if value.isEmpty {
+                return defaltValue
+            } else {
+                return value
+            }
+        }
+        return defaltValue
+    }
+    static func setUpText(value: String) {
+        UserDefaults.standard.set(value, forKey: "_UpText")
+    }
+    static func getDownText() -> String {
+        let defaltValue = "📉"
+        if let value = UserDefaults.standard.string(forKey: "_DownText") {
+            if value.isEmpty {
+                return defaltValue
+            } else {
+                return value
+            }
+        }
+        return defaltValue
+    }
+    static func setDownText(value: String) {
+        UserDefaults.standard.set(value, forKey: "_DownText")
+    }
 }
