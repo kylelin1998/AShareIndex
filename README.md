@@ -1,4 +1,4 @@
-# MacOS A股指数菜单栏显示软件
+# macOS A股指数菜单栏显示软件
 ![License](https://img.shields.io/badge/license-MIT-green)
 [![release](https://img.shields.io/github/v/release/kylelin1998/AShareIndex)](https://github.com/kylelin1998/AShareIndex/releases/latest)
 
@@ -7,7 +7,7 @@
 [直接下载](https://github.com/kylelin1998/AShareIndex/releases)
 
 ## 简介
-在MacOS系统菜单栏直接显示A股指数， 支持自定义股票代码显示
+在macOS系统菜单栏直接显示A股指数， 支持自定义股票代码显示
 
 轻量级显示不占系统资源， 运行内存占用平均20MB左右
 
